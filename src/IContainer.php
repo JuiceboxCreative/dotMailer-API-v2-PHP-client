@@ -19,6 +19,7 @@ interface IContainer extends \ArrayAccess, \Iterator
 
     const USERNAME = 'username';
     const PASSWORD = 'password';
+    const BASE_URL = 'base_url';
 
     /**
      * Get the Resources object initialized for the $name account
